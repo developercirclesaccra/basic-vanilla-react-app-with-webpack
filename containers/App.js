@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
-import Hello from '../components/Hello';
+import Header from '../components/Header';
+import Description from '../components/Description';
 
 export default class App extends Component {
   render() {
     return (
       <div>
-      <Hello />
-        <p>Welcome to dlyvr</p>
+        <Header />
+        <Description />
       </div>  
     )
   }
